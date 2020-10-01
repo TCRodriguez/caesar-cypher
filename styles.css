@@ -90,6 +90,16 @@ button:hover {
     width: 5%;
 }
 
+footer {
+    color: #07FF10;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    align-self: end;
+    justify-self: center;
+    margin-bottom: 2%;
+
+}
+
 /* Media queries! */
 
 @media screen and (max-width: 991px) {
@@ -127,6 +137,10 @@ button:hover {
         grid-column: 1 / 2;
         display: block;
         justify-self: center;
+    }
+
+    footer {
+        grid-column: 1 / 2;
     }
 
 }
